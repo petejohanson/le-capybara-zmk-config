@@ -12,3 +12,5 @@
 #     shield: reviung41
 #
 ---
+include:
+  - board: sporkus_le_capybara
