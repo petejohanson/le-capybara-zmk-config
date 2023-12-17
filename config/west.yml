@@ -8,11 +8,13 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: core/event-manager-stack-only
+      clone-depth: 1
       import: app/west.yml
     - name: le-capybara-zmk-module
       remote: petejohanson
+      clone-depth: 1
       revision: main
   self:
     path: config
