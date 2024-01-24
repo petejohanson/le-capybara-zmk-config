@@ -9,12 +9,12 @@ manifest:
   projects:
     - name: zmk
       remote: petejohanson
-      revision: core/event-manager-stack-only
+      revision: core/zephyr-3.5-update
       clone-depth: 1
       import: app/west.yml
     - name: le-capybara-zmk-module
       remote: petejohanson
       clone-depth: 1
-      revision: main
+      revision: zephyr-3.5-update
   self:
     path: config
