@@ -14,6 +14,8 @@
 ---
 include:
   - board: sporkus_le_capybara
+    # Uncomment to use 36-key layout
+    # snippet: layout-36-keys
   - board: sporkus_le_capybara
     snippet: enable_ec_calibrator
     artifact-name: sporkus_le_capybara_calibrator
