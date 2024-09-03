@@ -19,7 +19,7 @@ include:
   - board: sporkus_le_capybara
     snippet: enable_ec_calibrator
     artifact-name: sporkus_le_capybara_calibrator
-  - board: lpgalaxy_le_zapybara
-  - board: lpgalaxy_le_zapybara
+  - board: lpgalaxy_le_zapybara@0.0.2
+  - board: lpgalaxy_le_zapybara@0.0.2
     snippet: enable_ec_calibrator
     artifact-name: lpgalaxy_le_zapybara_calibrator
