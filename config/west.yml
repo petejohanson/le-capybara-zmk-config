@@ -16,5 +16,9 @@ manifest:
       remote: petejohanson
       clone-depth: 1
       revision: main
+    - name: ec-support-zmk-module
+      remote: petejohanson
+      clone-depth: 1
+      revision: main
   self:
     path: config
